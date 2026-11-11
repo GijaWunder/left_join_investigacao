@@ -120,10 +120,10 @@ insert into cartaoAcesso (id_registro, id_suspeito, dataAcesso, horario_acesso) 
 (10, 21, '2026-10-15', '10:50:00');
 
 insert into impressaoDigital (id_impressao, local_encontrado, id_suspeito) values
-(1, 'Vitrine onde as joias estavam expostas', 21),
+(1, 'Vitrine onde as joias estavam expostas', 1),
 (2, 'Apoio para as joias', 1),
-(3, 'Maçaneta da sala das joias', 1),
-(4, 'Gaveta da diretoria', 1),
+(3, 'Fechaduras eletrônicas da vitrine de joias', 1),
+(4, 'Gaveta da diretoria', 21),
 (5, 'Vidro da vitrine', 6),
 (6, 'Porta do corredor lateral', 6),
 (7, 'Mesa de pesquisa', 12),
