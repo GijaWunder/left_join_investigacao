@@ -159,9 +159,3 @@ from suspeito as s
 left join cartaoAcesso as c
 on s.id_suspeito = c.id_suspeito;
 
--- 5: impressao digital
-select s.nome, s.id_suspeito, i.local_encontrado
-from suspeito as s
-left join impressaoDigital as i
-on s.id_suspeito = i.id_suspeito
-order by i.id_suspeito;
